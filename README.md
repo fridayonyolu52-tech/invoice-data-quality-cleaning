@@ -80,6 +80,36 @@ The main Excel workbook contains five sheets:
 - `Final Validation` — post-processing validation checks.
 - `Data Quality Summary` — project overview, issue treatment, methodology, validation results, and audit notes.
 
+## Workflow Screenshots
+
+### 1. Raw Invoice Data
+
+![Raw invoice data](screenshots/01_raw_invoice_data.png)
+
+### 2. Quality Inspection
+
+![Quality inspection](screenshots/02_quality_inspection.png)
+
+### 3. Processed Invoice Data
+
+![Processed invoice data](screenshots/03_processed_invoice_data.png)
+
+### 4. Final Validation
+
+![Final validation](screenshots/04_final_validation.png)
+
+### 5. Data Quality Summary — Overview
+
+![Data quality summary overview](screenshots/05_data_quality_summary_overview.png)
+
+### 6. Data Quality Summary — Validation and Methodology
+
+![Data quality summary validation](screenshots/06_data_quality_summary_validation.png)
+
+### 7. Data Quality Summary — Outcome and Audit Note
+
+![Data quality summary outcome](screenshots/07_data_quality_summary_outcome.png)
+
 ## Repository Structure
 
 ```text
@@ -90,12 +120,21 @@ invoice-data-quality-cleaning/
 ├── documentation/
 │   └── data_quality_summary.md
 │
-└── data/
-    ├── raw/
-    │   └── invoice_data_raw.xlsx
-    │
-    └── processed/
-        └── invoice_data_processed.xlsx
+├── data/
+│   ├── raw/
+│   │   └── invoice_data_raw.xlsx
+│   │
+│   └── processed/
+│       └── invoice_data_processed.xlsx
+│
+└── screenshots/
+    ├── 01_raw_invoice_data.png
+    ├── 02_quality_inspection.png
+    ├── 03_processed_invoice_data.png
+    ├── 04_final_validation.png
+    ├── 05_data_quality_summary_overview.png
+    ├── 06_data_quality_summary_validation.png
+    └── 07_data_quality_summary_outcome.png
 ```
 
 ## Key Data-Quality Principle
